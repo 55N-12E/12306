@@ -1,0 +1,302 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration:none;
+	font-family: "微软雅黑";
+}
+html, body{
+	height: 100%;
+}
+
+.bg{
+	width:100%;
+	height:100%;
+	background:#44A8FD;
+	position:relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.question{
+	height:auto;
+	width: 80%;
+	padding-top:110px;
+	margin:0 auto;
+	font-size:14px;
+	color:#fff;
+	display:block;
+}
+
+.img-box{
+	border:5px solid #1788FA;
+	margin:0 auto;
+	width:85%;
+	height:40%;
+	margin-top:40px;
+}
+
+.img-box{
+	background:#fff;
+	margin:auto;
+	width:310px;
+	margin-top:30px;
+}
+
+.img-box ul li{
+	float:left;
+	border:1px solid black;
+	width:47%;
+	height:150px;
+	margin:3px;
+	position:relative;
+}
+
+.img-box ul li img{
+	width:80%;
+	margin:auto;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+
+.d1{
+	width:174px;
+	height:37px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	top:-15px;
+	left:90px;
+	background:#7cc0e8;
+	
+}
+
+.d2{
+	width:410px;
+	height:37px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	top:-15px;
+	left:110px;
+	background: -webkit-linear-gradient(left, #48ABFE , #73CBFD); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #48ABFE , #73CBFD); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #48ABFE , #73CBFD); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #48ABFE , #73CBFD); /* 标准的语法（必须放在最后） */
+	opacity:0.5;
+}
+
+.d3{
+	width:275px;
+	height:37px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	top:-15px;
+	left:210px;
+	background:#64C1FE;
+	opacity:0.6;
+}
+
+.d4{
+	width:174px;
+	height:67px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	top:225px;
+	right:-90px;
+	background: -webkit-linear-gradient(left, #4BACFD , #6BB8FC); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #4BACFD , #6BB8FC); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #4BACFD , #6BB8FC); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #4BACFD , #6BB8FC); /* 标准的语法（必须放在最后） */
+}
+
+.d5{
+	width:174px;
+	height:37px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	bottom:30px;
+	left:-90px;
+	background:#7CC0E7;
+}
+
+.d6{
+	width:225px;
+	height:37px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	bottom:15px;
+	left:-90px;
+	background:#7CC0E7;
+	opacity: 0.6;
+}
+
+.d7{
+	width:174px;
+	height:30px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	bottom:-35px;
+	left:-15px;
+	background:#44CAFD;
+}
+
+.d8{
+	width:314px;
+	height:67px;
+	transform:rotate(-35deg);
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+	bottom:15px;
+	right:-110px;
+	background: -webkit-linear-gradient(left, #52ADFC , #89C8FE); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #52ADFC , #89C8FE); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #52ADFC , #89C8FE); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #52ADFC , #89C8FE); /* 标准的语法（必须放在最后） */
+}
+
+.continue{
+	width:100%;
+	height:100%;
+}
+
+.title{
+	position:relative;
+}
+
+.yes, .wrong{
+	width:330px;
+	height:330px;
+	margin: auto;  
+  position: absolute;  
+  top: 30%; left: 0; bottom: 0; right: 0;  
+}
+.money,.game-over{
+	width:330px;
+	height:330px;
+	margin: auto;  
+  position: absolute;  
+  top: -9%; left: 0; bottom: 0; right: 0;  
+}
+
+.yes img, .wrong img, .game-over img, .money img{
+	width:100%;
+}
+
+.yes p, .wrong p, .game-over p, .money p{
+	position:absolute;
+	background:#7ECDF4;
+	color:#fff;
+	font-size:16px;
+	width:20%;
+	text-align:center;
+	padding:10px 0;
+	border-radius:10px;
+}
+
+.money input{
+	position:absolute;
+	border:none;
+	height:6%;
+}
+
+.money input:nth-child(1){
+	top: 43.8%;
+	left: 46%;
+	width: 38%;
+}
+
+.money input:nth-child(2){
+	top: 39.3%;
+    left: 30.5%;
+    width: 53%;
+}
+
+.money input:nth-child(3){
+	top: 48.3%;
+    left: 30.5%;
+    width: 30.5%;
+}
+
+.money p{
+	top:71%;
+	left:45%;
+}
+
+.yes p{
+	top:77%;
+	left:37%;
+}
+
+.wrong p{
+	top:78%;
+	left:40%;
+}
+
+.game-over p{
+	top:78%;
+	left:63%;
+}
+
+.btn{
+	position:absolute;
+	border-radius:174px;
+	z-index: -999;
+}
+
+.money img.close{
+	position:absolute;
+	top:0;
+	right:0;
+	width:13%;
+}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	visibility: hidden;
+	height:0;
+	clear:both;
+}
+
+.none{
+	display:none;
+}
+
+@media all and (orientation:landscape) {
+
+}
+

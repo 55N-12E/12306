@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+
+html, body{
+	height:100%;
+}
+
+.bg{
+	height:100%;
+	background:#44A8FD;
+	display: flex;
+}
+
+.img-box{
+	background:#fff;
+	margin:auto;
+	width:330px;
+}
+
+.img-box li{
+	float:left;
+	border:1px solid black;
+	width:47%;
+	height:150px;
+	margin:3px;
+}
+
+.img-box li img{
+	width:80%;
+	margin:auto;
+	display:block;
+}
+
